@@ -1,7 +1,7 @@
 n = 0
 count = n + 1
 limit = 21
-#sahl
+
 def restart():
     global limit, count, n
     print('New Game!!')
@@ -20,7 +20,7 @@ def substract(num, player_name):
 
 def handle_input(player_name):
     print (player_name)
-    x = input ("x: ")
+    x = int(input ("x: "))
     if x < 1 or x > 3 or x > limit:
         print ("invalid x")
     else:
